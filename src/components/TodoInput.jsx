@@ -9,6 +9,10 @@ function TodoInput({ onTodoAdd }) {
   };
 
   const handleClick = () => {
+    if (inputText === '') {
+      alert('빈 값은 저장할 수 없습니다.');
+      return;
+    }
     onTodoAdd(inputText);
     setInputText('');
   };

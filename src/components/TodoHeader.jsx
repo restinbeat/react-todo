@@ -1,5 +1,5 @@
 function TodoHeader() {
-  return <h1>TODO 앱</h1>;
+  return <h1>To-Do List</h1>;
 }
 
 export default TodoHeader;
